@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #2c2c54;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a.btn {
+  background: #ff4d4d;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+section {
+  padding: 80px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.block.reverse {
+  flex-direction: row-reverse;
+}
+
+.block img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.block div {
+  flex: 1;
+}
+
+.carousel {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.carousel img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin: auto;
+}
+
+.carousel p {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.cta {
+  text-align: center;
+}
+
+.cta .btn {
+  display: inline-block;
+  background: #25d366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.faq-item {
+  margin-bottom: 10px;
+}
+
+.faq-question {
+  width: 100%;
+  padding: 12px;
+  background: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-size: 16px;
+}
+
+.faq-answer {
+  display: none;
+  padding: 10px;
+  background: #f1f1f1;
+}
